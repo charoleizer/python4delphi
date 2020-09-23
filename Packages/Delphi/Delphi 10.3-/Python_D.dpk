@@ -1,7 +1,7 @@
 package Python_D;
 
 {$R *.res}
-{$R 'Sources\Core\PythonEngine.dcr'}
+//{$R 'Sources\Core\PythonEngine.dcr'}
 {$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
 {$ALIGN 8}
 {$ASSERTIONS ON}
@@ -50,9 +50,9 @@ requires
   vcl;
 
 contains
-  MethodCallBack in '..\..\Source\MethodCallBack.pas',
-  PythonEngine in '..\..\Source\PythonEngine.pas',
-  PythonGUIInputOutput in '..\..\Source\PythonGUIInputOutput.pas',
-  WrapDelphi in '..\..\Source\WrapDelphi.pas';
+  MethodCallBack in '..\..\..\Source\MethodCallBack.pas',
+  PythonEngine in '..\..\..\Source\PythonEngine.pas',
+  PythonGUIInputOutput in '..\..\..\Source\PythonGUIInputOutput.pas',
+  WrapDelphi in '..\..\..\Source\WrapDelphi.pas';
 
 end.
